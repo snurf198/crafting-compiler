@@ -14,3 +14,5 @@ int insert_elem(DLL* dll, int index, char chr);
 char get(DLL* dll, int index);
 int remove_elem(DLL* dll, int index);
 void print_dll(DLL* dll);
+int len_of(DLL* dll);
+int push_back(DLL* dll, char chr);

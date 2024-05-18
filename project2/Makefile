@@ -5,6 +5,9 @@ OBJS = dll.o main.o
 test: test.out
 	./test.out
 
+dbg_test: test.out
+	gdb -q ./test.out
+
 test.out: dll.o dll_test.o
 	$(CC) -o test.out dll.o dll_test.o
 
