@@ -24,4 +24,4 @@ dll_test.o:
 	$(CC) -c src/tests/dll_test.c
 
 clean:
-	rm -rf *.o
+	rm -rf *.o *.out
